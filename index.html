@@ -40,16 +40,22 @@
           (photo here)
         </p>
     </div>
-
-     <div class="project">
+    
+    <div class="project">
         <h4>Gold Crest</h4>
         <p>
           
         </p>
     </div>
+
 </div>
 
 <style>
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
     .projects {
         display: flex;
         justify-content: space-between;
